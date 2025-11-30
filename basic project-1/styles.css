@@ -8,7 +8,7 @@ body{
 }
 
 h3{
-  color: white;
+  color: rgb(78, 0, 0);
 
 }
 
@@ -54,15 +54,7 @@ input{
   
 }
 
-.thumbnail{
-  width: 200px;
-  height: auto;
-  border-radius: 15px;
-  box-shadow: 2px 2px 100px rgba(0,0,0,0.5);
-  margin-bottom: 10px;
-  padding: 20px;
 
-} 
 
 .coulumn{
   float: left;
@@ -70,9 +62,17 @@ input{
   padding: 10px 10px;
 }
 
-.card{
+
+.card {
   border-radius: 19px;
-  padidng:15px; 
-  text-align:center; 
-  backgrounf-color: #f1f1f1;
+  padding: 15px;
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 220px;
+  display: inline-block;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 12px;
 }
